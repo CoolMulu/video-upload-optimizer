@@ -1,6 +1,6 @@
 # 📊 Video Upload Optimizer
 
-A data science web app that analyzes video upload performance and recommends the best posting time based on historical data.
+A data science web app that analyzes video upload performance and recommends the best posting time based on data.
 
 ## 🚀 Features
 - Upload CSV of video analytics data
