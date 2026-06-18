@@ -1,13 +1,13 @@
 # 📊 Video Upload Optimizer
 
-A data science web app that analyzes video upload performance and finds the best posting time.
+A data science web app that analyzes video upload performance and recommends the best posting time based on historical data.
 
 ## 🚀 Features
-- Upload CSV of video data
+- Upload CSV of video analytics data
 - Analyze best performing day
 - Analyze best performing upload time
-- Heatmap visualization
-- Best upload time recommendation
+- Heatmap visualization of performance patterns
+- Automatic recommendation of optimal upload time
 
 ## 🛠 Tech Stack
 - Python
@@ -19,7 +19,23 @@ A data science web app that analyzes video upload performance and finds the best
 ## 🌐 Live Demo
 https://video-upload-optimizer-ykmbbpnjetaaxdjylklr7n.streamlit.app/
 
-## 📁 How to Run Locally
+## 📊 Data Format
+
+Upload a CSV file with the following columns:
+
+| Date | Day | Time Posted | Views Day 3 |
+|------|-----|-------------|-------------|
+| 2025-01-27 | Tuesday | PM07:00 | 559 |
+| 2025-02-02 | Tuesday | PM12:00 | 1980 |
+
+### Column Description:
+- **Date** → upload date of the video
+- **Day** → weekday name (Monday–Sunday)
+- **Time Posted** → format like `PM07:00` or `AM10:00`
+- **Views Day 3** → number of views after 3 days
+
+## ⚡ How to Run Locally
+
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
