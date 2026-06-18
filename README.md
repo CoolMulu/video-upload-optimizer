@@ -21,8 +21,7 @@ https://video-upload-optimizer-ykmbbpnjetaaxdjylklr7n.streamlit.app/
 
 ## 📊 Data Format
 
-Upload a CSV file with the following columns:
-Example:
+Upload a CSV file with the following columns (Example):
 
 | Date | Day | Time Posted | Views Day 3 |
 |------|-----|-------------|-------------|
