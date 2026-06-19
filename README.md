@@ -19,6 +19,23 @@ A data science web app that analyzes video upload performance and recommends the
 ## 🌐 Live Demo
 https://video-upload-optimizer-ykmbbpnjetaaxdjylklr7n.streamlit.app/
 
+## 🚀 How to Use
+
+1. Open the web app:
+   https://video-upload-optimizer-ykmbbpnjetaaxdjylklr7n.streamlit.app/
+
+2. Prepare a CSV file containing your video performance data.
+
+3. Make sure the CSV follows the required format shown below.
+
+4. Upload the CSV file to the app.
+
+5. Review the results:
+   - Best performing day
+   - Best performing upload time
+   - Performance heatmap
+   - Recommended upload schedule
+
 ## 📊 Data Format
 
 Upload a CSV file with the following columns (Example):
