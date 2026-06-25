@@ -1,4 +1,4 @@
-# 📊 Video Upload Optimizer
+# 📊 Auto Video Upload Optimizer
 
 A data science web app that analyzes video upload performance and recommends the best posting time based on data. Created to help content creators use data to optimize their posting schedules and maximize reach.
 
