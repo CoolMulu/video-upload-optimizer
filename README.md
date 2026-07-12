@@ -51,6 +51,12 @@ Upload a CSV file with the following columns (Example):
 - **Time Posted** → format like `PM07:00` or `AM10:00`
 - **Views Day 3** → number of views after 3 days
 
+## 🧪 Sample Data
+
+A sample CSV file (`testdata.csv`) is included in this repository for testing purposes.
+
+You can upload this file directly to the app to see how the analysis works, or replace it with your own video analytics data using the same format.
+
 ## ⚡ How to Run Locally
 
 ```bash
