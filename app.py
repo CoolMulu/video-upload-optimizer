@@ -3,7 +3,13 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-st.title("📊 Video Upload Optimizer")
+st.set_page_config(
+    page_title="Auto Video Upload Optimizer",
+    page_icon="📊",
+    layout="centered"
+)
+
+st.title("📊 Auto Video Upload Optimizer")
 
 uploaded_file = st.file_uploader("Upload CSV", type="csv")
 
