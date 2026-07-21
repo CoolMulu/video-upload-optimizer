@@ -17,12 +17,12 @@ A data science web app that analyzes video upload performance and recommends the
 - Matplotlib
 
 ## 🌐 Live Demo
-https://video-upload-optimizer-ykmbbpnjetaaxdjylklr7n.streamlit.app/
+https://auto-video-upload-optimizer.streamlit.app/
 
 ## 🚀 How to Use
 
 1. Open the web app:
-   https://video-upload-optimizer-ykmbbpnjetaaxdjylklr7n.streamlit.app/
+   https://auto-video-upload-optimizer.streamlit.app/
 
 2. Prepare a CSV file containing your video performance data.
 
